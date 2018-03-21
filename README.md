@@ -4,4 +4,4 @@
 
 ### En este proyecto, se establece un enlace con una base de datos bajo el gestor de bases de datos MySQL.
 
-Intermedio a la página web y al sistema de control como tal (circuito electrónico y motores), toma lugar la comunicación serial entre con Node.js y Arduino, lo mencionado tiene lugar en otro proyecto
+Intermedio a la página web y al sistema de control como tal (circuito electrónico y motores), toma lugar la comunicación serial con Node.js y Arduino, lo mencionado tiene lugar en otro proyecto
