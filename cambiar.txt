@@ -1,0 +1,41 @@
+$0: 0(0_Cf,1_In,2_Dz,3_Tt)
+
+
+
+# Cambiar amperaje de motores
+$1: 1.00(Amp_motor1)
+$2: 1.00(Amp_motor2)
+$3: 1.00(Amp_motor3)
+$4: 1.00(Amp_motor4)
+-------------------------------
+Ejemplo: Motor 4 = amperaje 4.5
+  -> 4.5$4
+
+
+
+# Encender-apagar motores
+$5: 0(on_motor1)
+$6: 0(on_motor2)
+$7: 0(on_motor3)
+$8: 0(on_motor4)
+-------------------------
+Ejemplo: Encender motor 3
+  -> 1$7
+
+
+$9: 1mint(tiempo motor)
+$10: 6.25(Dz -)
+$11: 6.41(Dz +)
+$12: 1(0_-,1_+,2_/,3_*)
+$13: 0.0(ajuste_manual)
+$14: 1(0-act_auto,1-act_manual)
+$15: 0(1-act_el_ciclo,0-off)
+
+# Leer automático-manual
+$16: 1(1-leer_auto,0-manual)
+----------------------------
+Ejemplo:
+  Establecer modo automático
+    -> 1$16
+  Establecer modo manual
+    -> 0$16
